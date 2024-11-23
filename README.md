@@ -1,7 +1,7 @@
 # Newsery
 
 
-![Application](https://github.com/alexiyous/alexiyous/blob/main/images/image/image.png)
+![Application](https://github.com/alexiyous/Newsery/blob/main/Images/for_revered_broski.png)
 
 This is an application for finding international news, news about your ex, your mother, your father who never comes home, or about software engineers who have not found a job and are forced to grind leetcode trying to inverse arrays.
 
