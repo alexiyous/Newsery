@@ -17,5 +17,6 @@ The basic stack and design patterns used include:
 - Room (Database)
 - Dynamic Feature (I implement this for my final project, it doesn't have any useful actually)
 - Pager3
+- Coroutine Flow
 - MVVM
 - Clean Architecture (For the OCD's out there)
