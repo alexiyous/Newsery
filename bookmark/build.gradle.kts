@@ -17,7 +17,7 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    buildTypes {
+   /* buildTypes {
         release {
             isMinifyEnabled = false
             proguardFiles(
@@ -25,7 +25,7 @@ android {
                 "proguard-rules.pro"
             )
         }
-    }
+    }*/
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
