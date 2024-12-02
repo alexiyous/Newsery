@@ -1,5 +1,6 @@
 # Newsery
 
+[![arifaizin](https://circleci.com/gh/alexiyous/Newsery.svg?style=svg)](https://circleci.com/gh/alexiyous/Newsery)
 
 ![Application](https://github.com/alexiyous/Newsery/blob/main/Images/for_revered_broski.png)
 
