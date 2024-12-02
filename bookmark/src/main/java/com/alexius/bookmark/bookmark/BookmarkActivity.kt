@@ -16,7 +16,6 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.alexius.bookmark.bookmarkModule
-import com.alexius.core.data.remote.response.Article
 import com.alexius.core.domain.model.ArticleModel
 import com.alexius.newsery2.presentation.detail.DetailScreen
 import com.alexius.newsery2.presentation.detail.DetailsEvent
@@ -30,7 +29,7 @@ import org.koin.core.context.loadKoinModules
 import kotlin.getValue
 
 
-class BookmarkActivity() : ComponentActivity() {
+class BookmarkActivity : ComponentActivity() {
 
     private val viewModel: BookmarkViewModel by viewModel()
 

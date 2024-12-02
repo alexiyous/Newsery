@@ -6,7 +6,7 @@ import androidx.paging.cachedIn
 import com.alexius.core.domain.usecases.news.NewsUseCases
 
 class HomeViewModel(
-    private val newsUseCases: NewsUseCases
+    newsUseCases: NewsUseCases
 ): ViewModel() {
 
     val news = newsUseCases.getNews(
