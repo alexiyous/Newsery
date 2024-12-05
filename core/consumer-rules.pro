@@ -25,8 +25,9 @@
 -keep class * implements com.google.gson.JsonDeserializer
 
 # Prevent R8 from leaving Data object members always null
--keep class * {
-  @com.google.gson.annotations.SerializedName <fields>;
+-keepclasseswithmembers class * {
+    <init>(...);
+    @com.google.gson.annotations.SerializedName <fields>;
 }
 
 # Retain generic signatures of TypeToken and its subclasses with R8 version 3.0 and higher.

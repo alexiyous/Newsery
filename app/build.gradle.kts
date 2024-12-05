@@ -50,7 +50,7 @@ android {
 
 dependencies {
 
-    api(project(":core"))
+    implementation(project(":core"))
 
     //Resolve error-prone annotations
     implementation (libs.error.prone.annotations)
